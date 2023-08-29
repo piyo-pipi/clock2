@@ -10,12 +10,12 @@ function draw() {
     // radius はキャンバスサイズに対する比率
     var circle = {
         outer: {
-            radius  : 1,
-            color   : "#778899"
+            radius  : 0.9,
+            color   : "#00ced1"
         },
         inner: {
             radius  : 0.85,
-            color   : "#f0f8ff"
+            color   : "#a52a2a"
         }
     };
 
@@ -26,13 +26,13 @@ function draw() {
             from    : 0.8,
             to      : 0.68,
             width   : 3,
-            color   : "#8a2be2"
+            color   : "#c0c0c0"
         },
         short: {
             from    : 0.8,
             to      : 0.75,
             width   : 1,
-            color   : "#8a2be2"
+            color   : "#c0c0c0"
         }
     };
 
@@ -44,21 +44,21 @@ function draw() {
             length  : 0.43,
             width   : 8,
             cap     : "round",
-            color   : "#8a2be2",
+            color   : "#00ced1",
             ratio   : 0.2
         },
         minute: {
             length  : 0.67,
             width   : 6,
             cap     : "round",
-            color   : "#8a2be2",
+            color   : "#00ced1",
             ratio   : 0.2
         },
         second: {
             length  : 0.67,
             width   : 2,
             cap     : "round",
-            color   : "#8a2be2",
+            color   : "#00ced1",
             ratio   : 0.2
         }
     }
